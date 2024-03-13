@@ -1,0 +1,20 @@
+COMENTARIOS :
+=============
+No borrar este proyecto
+Contiene AdminLte3 con Jetstream.
+Debe quedar como un modelo.
+	- Estan deshabilitadas ciertas funcionalidades de jetstram en app_ORIGINAL, no borrarlo y proceder habilitarlas
+	
+Ya se puede agregar aquí para un nuevo sistema.
+
+
+index
+=====
+public function index(Request $request){
+        $categorias=Categoria::where('estado',true)->get();
+
+en edit
+=========
+@if($producto->categoria->estado==false)
+	<option selected value={{$producto->categoria_id}}>{{$producto->categoria->nombre}}</option>
+@endif
