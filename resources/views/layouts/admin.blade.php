@@ -147,7 +147,7 @@
         <div class="float-right d-none d-sm-block">
             <b>Versión</b> 1.0
         </div>
-        <strong>Copyright &copy; 2023 <a href="" target="_blank">UVStock</a>.</strong>
+        <strong>Copyright &copy; 2023 <a href="https://henrrych.netlify.app/" target="_blank">ChariSoft</a>.</strong>
     </footer>
 </div>
 
